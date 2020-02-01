@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "Aktivitas.h"
-
+#include "status.h"
 int main()
 {
 	int stt[5]= {25,25,25,25,25};
@@ -12,7 +12,7 @@ int main()
 	while (stt[4] != 0)
 	{
 		int pil; 
-		printf("Pilih aktivitas :");
+		printf("Pilih aktivitas :\n 1. Sarapan.\n 2. Lari Pagi.\n 3. Main Game  ");
 		scanf("%d", &pil);
 		
 		if (pil == 1)
@@ -33,31 +33,25 @@ int main()
 			aktivitas(akv, stt);
 		}
 		
-		else if (pil == 3
+		else if (pil == 4)
 		{
 			int akv[5] = {0,0,0,15,-20};
 			aktivitas(akv, stt);
 		}
 		
-		else if (pil == 4
+		else if (pil == 5)
 		{
 			int akv[5] = {0,0,0,15,-20};
 			aktivitas(akv, stt);
 		}
 		
-		else if (pil == 5
+		else if (pil == 6)
 		{
 			int akv[5] = {0,0,0,15,-20};
 			aktivitas(akv, stt);
 		}
 		
-		else if (pil == 6
-		{
-			int akv[5] = {0,0,0,15,-20};
-			aktivitas(akv, stt);
-		}
-		
-		else if (pil == 8
+		else if (pil == 8)
 		{
 			int akv[5] = {0,0,0,15,-20};
 			aktivitas(akv, stt);
