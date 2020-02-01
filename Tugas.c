@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "Aktivitas.h"
-#include "status.h"
+
 int main()
 {
 	int stt[5]= {25,25,25,25,25};
