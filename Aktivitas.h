@@ -1,3 +1,3 @@
 #include "Aktivitas.c"
 
-int aktivitas(int akv[], int stt[]);
+void aktivitas(int akv[], int pstt[]);

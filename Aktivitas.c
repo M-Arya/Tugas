@@ -1,8 +1,8 @@
-int aktivitas(int akv[], int stt[])
+void aktivitas(int akv[], int pstt[])
 {
 	int i;
 	for (i = 0; i <= 4; i ++)
 	{
-		stt[i] += akv[i];
+		pstt[i] += akv[i];
 	}
 }
