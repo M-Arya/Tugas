@@ -9,11 +9,11 @@ int main()
 	printf("hygiene		= %d\n", pstt[1]);
 	printf("social		= %d\n", pstt[2]);
 	printf("health 		= %d\n", pstt[3]);
-	printf("money		= %d\n", pstt[4]);
+	printf("money		= %d\n\n", pstt[4]);
 	while (stt[4] >= 0)
 	{
 		int pil;
-		printf("Pilih aktivitas :\n 1. Makan.\t 6. Nongkrong.\n 2. Lari Pagi.\t 7. Laundry \n 3. Main Game.\t 8. Nonton \n 4. Tidur.\t 9. Gelud. \n 5. Mandi.\t 10. Kerja.\n");
+		printf("Pilih aktivitas :\n 1. Makan.\t 6. Nongkrong.\n 2. Lari Pagi.\t 7. Laundry \n 3. Main Game.\t 8. Nonton \n 4. Tidur.\t 9. Gelud. \n 5. Mandi.\t 10. Kerja.\n\n");
 		scanf("%d", &pil);
 
 		if (pil == 1)
@@ -85,19 +85,19 @@ int main()
 			int akv[6] = {-5,0,+2,-2,+7};
 			aktivitas(akv, pstt);
 		}
-		printf("happines 	= %d\n", pstt[0]);
+		printf("\nhappines 	= %d\n", pstt[0]);
 		printf("hygiene		= %d\n", pstt[1]);
 		printf("social		= %d\n", pstt[2]);
 		printf("health 		= %d\n", pstt[3]);
-		printf("money		= %d\n", pstt[4]);
+		printf("money		= %d\n\n", pstt[4]);
         if (pstt[3] <= 0 || pstt[4] <= 0)
         {
-            printf("Anda Kalah!");
+            printf("\nAnda Kalah!\n");
             break;
         }
-        if (pstt[0] >= 100)
+        if (pstt[0] >= 50)
         {
-            printf("Selamat Anda Menang!");
+            printf("\nSelamat Anda Menang!\n");
             break;
         }
 	}
